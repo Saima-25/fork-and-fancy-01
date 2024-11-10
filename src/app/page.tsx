@@ -8,18 +8,17 @@ export default function Home() {
             Featured Recipes
           </h2>
           <ul>
-            
-            <li >
+            <li>
               <h3 className="text-2xl font-bold text-purple-800 mb-4 font-sans-serif underline pl-4 text-center">
                 Herb-Roasted Chicken{" "}
               </h3>
               <p className="font-sans-serif italic text-blue-900 text-center pl-20 pr-20 ml-[300px] mr-[300px]">
-                "To make Herb-Roasted Chicken, rinse and dry a 3-4 lb whole
+              &ldquo;To make Herb-Roasted Chicken, rinse and dry a 3-4 lb whole
                 chicken. Mix 2 tbsp olive oil, 2 tbsp chopped rosemary, 2 tbsp
                 chopped thyme, 2 minced garlic cloves, 1 tsp salt, 1 tsp black
                 pepper, and 1 tsp paprika. Rub mixture on chicken and stuff 1
                 lemon quarter in cavity. Roast in oven at 425°F (220°C) for
-                45-50 minutes. Let rest 10-15 minutes, then carve and serve."
+                45-50 minutes. Let rest 10-15 minutes, then carve and serve.&ldquo;
               </p>
             </li>
             <li>
@@ -36,7 +35,7 @@ export default function Home() {
                 Smoothie Bowl
               </h3>
               <p className="font-sans-serif italic text-blue-900 text-center pl-20 pr-20 ">
-                "A delicious meal for kids"
+              &ldquo;A delicious meal for kids&ldquo;
               </p>
             </li>
 
@@ -101,7 +100,7 @@ export default function Home() {
                 Greek Biscuit Bake
               </h3>
               <p className="font-sans-serif italic text-blue-900 p-4 text-center pl-20 pr-20 ">
-                Kid's Favourite
+                Kid&lsquo;s Favourite
               </p>
             </li>
             <li>

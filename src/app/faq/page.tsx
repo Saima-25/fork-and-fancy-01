@@ -10,7 +10,7 @@ export default async function FAQ(){
         <h2 className='font-sans-serif italic text-purple-900  font-bold p-4'>Q: What is your return policy?</h2>
   
         <p className='font-sans-serif italic text-blue-900 font-bold p-4'>
-          We offer a 30-day return policy. If you're not satisfied with your
+          We offer a 30-day return policy. If you&lsquo;re not satisfied with your
           purchase, you can return it within 30 days for a full refund.
         </p>
   
@@ -18,7 +18,7 @@ export default async function FAQ(){
   
         <p className='font-sans-serif italic text-blue-900  font-bold p-4'>
           You can track your order by logging into your account and clicking on
-          the "Order History" tab.
+          the &ldquo;Order History&ldquo; tab.
         </p>
   
         <h2 className='font-sans-serif italic text-purple-900  font-bold p-4'>Q: What forms of payment do you accept?</h2>

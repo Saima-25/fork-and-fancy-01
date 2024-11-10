@@ -13,12 +13,12 @@ export default function Blog() {
                 The Benefits of Cooking at Home
               </h3>
               <p className="w-[500px] font-sans-serif italic text-blue-900 font-bold p-4 items-center text center ml-[450px]">
-                "Cooking at home offers numerous benefits! It allows for
+              &ldquo;Cooking at home offers numerous benefits! It allows for
                 healthier eating, stress relief, and quality time with family.
                 You can control calories, save money, and preserve cultural
                 traditions. Plus, it boosts confidence and promotes mental
                 well-being. Cooking at home is a simple yet effective way to
-                improve overall health and happiness."
+                improve overall health and happiness.&ldquo;
               </p>
               <button className="border-2 border-blue-500 hover:bg-blue-500 hover:text-white text-blue-700 font-bold py-1 px-2 rounded bg-blue-300 p-4 ml-[630px]">
                 Read More
@@ -33,7 +33,7 @@ export default function Blog() {
                 Top 5 Healthy Recipes for Busy Days
               </h3>
               <p className="font-sans-serif italic text-blue-900 font-bold p-4 ml-[450px] mr-[300px]">
-                "For busy days, try these 5 healthy recipes that are quick,
+              &ldquo;For busy days, try these 5 healthy recipes that are quick,
                 easy, and nutritious.{" "}
                 <em>
                   {" "}
@@ -62,7 +62,7 @@ export default function Blog() {
                   <b>Mediterranean and Orzo bundles tenderloin</b>
                 </em>
                 , orzo pasta, spinach, and feta cheese for a perfect busy-day
-                meal."
+                meal.&ldquo;
               </p>
               <button className="border-2 border-blue-500 hover:bg-blue-500 hover:text-white text-blue-700 font-bold py-1 px-2 rounded bg-blue-300 p-4 ml-[630px]">
                 Read More
