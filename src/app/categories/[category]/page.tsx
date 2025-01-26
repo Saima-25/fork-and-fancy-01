@@ -6,7 +6,7 @@ const Category = ({params} : { params: {category: string} })=> {
     return(
         <div>
 
-        <h1> Category's page </h1>
+        <h1> Category page </h1>
 <h3> {params.category} </h3>
 </div>
     )
