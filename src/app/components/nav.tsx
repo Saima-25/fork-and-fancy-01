@@ -10,6 +10,8 @@ export default function NavBar() {
       <Link href="/contact" className=" font-bold hover:bg-blue-700 p-2  rounded">Contact</Link> 
       <Link href="/faq" className=" font-bold hover:bg-blue-700 p-2  rounded">FAQ</Link> 
       <Link href="/services" className=" font-bold hover:bg-blue-700 p-2  rounded">Services</Link>
+      <Link href="/categories" className=" font-bold hover:bg-blue-700 p-2  rounded">Categories</Link>
+
     </div>
   );
 }
