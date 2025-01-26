@@ -1,5 +1,4 @@
 "use client";
-import Link from 'next/link'
 import Image from "next/image";
 import { useState } from "react";
 export default function Blog() {
@@ -21,11 +20,12 @@ export default function Blog() {
   const [comments, setComments] = useState<Comment[]>([]);
   const [formData, setFormData] = useState<Comment>({ name: "", email: "" , message: ""});
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
+  
   const handleSubmitComment = (e: React.FormEvent) => {
     e.preventDefault();
     if (formData.name && formData.email && formData.message) {
@@ -181,10 +181,12 @@ export default function Blog() {
           onSubmit={handleSubmitComment}
         >
           <div className="mb-4">
-            <label className="block font-bold text-gray-700">Name:</label>
+            <label className="block font-bold text-gray-700" htmlFor="name"> Name:</label>
             <input
               type="text"
               name="name"
+              id="name" 
+
               value={formData.name}
               onChange={handleInputChange}
               className="w-full px-4 py-2 border rounded-md"
@@ -192,10 +194,11 @@ export default function Blog() {
             />
           </div>
           <div className="mb-4">
-            <label className="block font-bold text-gray-700">Email:</label>
+            <label className="block font-bold text-gray-700" htmlFor='email'>Email:</label>
             <input
               type="email"
               name="email"
+              id="email"
               value={formData.email}
               onChange={handleInputChange}
               className="w-full px-4 py-2 border rounded-md"
